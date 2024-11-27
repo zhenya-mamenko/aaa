@@ -3,6 +3,10 @@
 A self-hosted application to simplify passive assets allocation.
 
 ![GitHub License](https://img.shields.io/github/license/zhenya-mamenko/aaa)
+[![Backend tests](https://github.com/zhenya-mamenko/aaa/actions/workflows/pytest.yml/badge.svg)](https://github.com/zhenya-mamenko/aaa/actions/workflows/pytest.yml)
+![Codecov](https://img.shields.io/codecov/c/github/zhenya-mamenko/aaa)
+[![Frontend tests](https://github.com/zhenya-mamenko/aaa/actions/workflows/jest.yml/badge.svg)](https://github.com/zhenya-mamenko/aaa/actions/workflows/jest.yml)
+[![Frontend e2e tests](https://github.com/zhenya-mamenko/aaa/actions/workflows/playwright.yml/badge.svg)](https://github.com/zhenya-mamenko/aaa/actions/workflows/playwright.yml)
 
 ## Features
 
