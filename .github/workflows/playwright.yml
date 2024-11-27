@@ -26,5 +26,8 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: |
-          cd frontend/
-          npm run test:playwright -- --headless
+          cd backend/
+          nohup uvicorn app:fastapi_app &
+          cd ../frontend/
+          nohup python -m http.server &
+          npm run test:playwright
