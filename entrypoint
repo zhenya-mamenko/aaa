@@ -1,0 +1,13 @@
+#!/bin/sh
+if [-f /db/aaa.db]; then
+    echo "Database already exists"
+else
+    echo "Database does not exist, creating..."
+    /backend/create_db.sh
+fi
+
+cd /frontend
+nohup python3 -m http.server 3000 &
+
+cd /backend
+uvicorn app:fastapi_app --host 0.0.0.0 --port 8000

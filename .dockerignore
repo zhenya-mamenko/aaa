@@ -1,0 +1,16 @@
+
+**/__pycache__
+**/*.test.*
+**/.coverage*
+**/.editorconfig
+**/.env.test
+**/.gitignore
+**/.pytest.ini
+**/.pytest_cache
+**/.venv
+**/dist
+**/jest.*
+**/node_modules
+**/npm-debug.log
+**/playwright.*
+**/requirements_dev.txt
