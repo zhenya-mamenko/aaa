@@ -43,6 +43,6 @@ jobs:
           nohup uvicorn app:fastapi_app &
       - name: Run Playwright tests
         run: |
-          cd ../frontend/
+          cd frontend
           nohup python -m http.server &
           npm run test:playwright
