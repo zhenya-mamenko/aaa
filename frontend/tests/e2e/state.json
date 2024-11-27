@@ -1,0 +1,45 @@
+{
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "assets",
+          "value": "{\"columns\":[{\"key\":\"asset_id\",\"visible\":true,\"title\":\"id\"},{\"key\":\"class_name\",\"visible\":false,\"title\":\"classes.1\"},{\"key\":\"category_name\",\"visible\":false,\"title\":\"categories.1\"},{\"key\":\"asset_name\",\"visible\":true,\"disabled\": true,\"title\":\"assets.1\"},{\"key\":\"asset_ticker\",\"visible\":true,\"title\":\"assets.ticker\"}]}"
+        },
+        {
+          "name": "assets_state",
+          "value": "{\"columns\":[{\"key\":\"asset\",\"visible\":true,\"disabled\": true,\"title\":\"assets.1\"},{\"key\":\"amount\",\"visible\":true,\"disabled\": true,\"title\":\"assets.amount\"},{\"key\":\"prev_amount\",\"visible\":false,\"title\":\"assets.prev\"},{\"key\":\"prev_change\",\"visible\":true,\"title\":\"assets.prev_change\"},{\"key\":\"category\",\"visible\":false,\"title\":\"categories.1\"},{\"key\":\"class\",\"visible\":false,\"title\":\"classes.1\"}],\"showFromFirst\":{\"value\":true,\"title\":\"assets.settings.show_from_first\"}}"
+        },
+        {
+          "name": "categories",
+          "value": "{\"columns\":[{\"key\":\"category_id\",\"visible\":true,\"title\":\"id\"},{\"key\":\"class_name\",\"visible\":false,\"title\":\"classes.1\"},{\"key\":\"category_name\",\"visible\":true,\"disabled\": true,\"title\":\"categories.1\"}]}"
+        },
+        {
+          "name": "classes",
+          "value": "{\"columns\":[{\"key\":\"class_id\",\"visible\":true,\"title\":\"id\"},{\"key\":\"class_name\",\"visible\":true,\"disabled\": true,\"title\":\"classes.1\"}]}"
+        },
+        {
+          "name": "structures",
+          "value": "{\"columns\":[{\"key\":\"structure_id\",\"visible\":true,\"title\":\"id\"},{\"key\":\"structure_date\",\"visible\":false,\"title\":\"date.title\",\"type\":\"date\"},{\"key\":\"structure_name\",\"visible\":true,\"disabled\": true,\"title\":\"structures.1\"},{\"key\":\"is_current\",\"visible\":false,\"title\":\"structures.current\",\"type\":\"boolean\"}]}"
+        },
+        {
+          "name": "structure_categories",
+          "value": "{\"columns\":[{\"key\":\"class\",\"visible\":false,\"title\":\"classes.1\"},{\"key\":\"category\",\"visible\":true,\"disabled\": true,\"title\":\"categories.1\"},{\"key\":\"target_percent\",\"visible\":true,\"disabled\": true,\"title\":\"portfolio.target_percent\"}]}"
+        },
+        {
+          "name": "portfolio",
+          "value": "{\"columns\":[{\"key\":\"category\",\"visible\":true,\"disabled\": true,\"title\":\"categories.1\"},{\"key\":\"target_percent\",\"visible\":true,\"disabled\": true,\"title\":\"portfolio.target_percent\"},{\"key\":\"current_percent\",\"visible\":true,\"disabled\": true,\"title\":\"portfolio.current_percent\"},{\"key\":\"amount\",\"visible\":true,\"disabled\": false,\"title\":\"assets.amount\"}],\"diffWarning\":{\"value\":2.5,\"title\":\"portfolio.diff_warning\",\"rules\":[\"required\",\"number\",[\"value_range\",0,100]]}}"
+        },
+        {
+          "name": "statements",
+          "value": "{\"columns\":[{\"key\":\"class\",\"visible\":false,\"title\":\"classes.1\"},{\"key\":\"category\",\"visible\":false,\"title\":\"categories.1\"},{\"key\":\"date\",\"visible\":true,\"disabled\": true,\"title\":\"date.title\"},{\"key\":\"asset\",\"visible\":true,\"disabled\": true,\"title\":\"assets.1\"},{\"key\":\"amount\",\"visible\":true,\"disabled\": true,\"title\":\"assets.amount\"}]}"
+        },
+        {
+          "name": "global",
+          "value": "{\"base\":[{\"value\":[{\"value\":\"lightTheme\",\"title\":\"settings.theme.light\",\"selected\":true},{\"value\":\"dark\",\"title\":\"settings.theme.dark\"}],\"title\":\"settings.theme.title\"},{\"value\":[{\"value\":\"ru\",\"title\":\"settings.languages.ru\"},{\"value\":\"en\",\"title\":\"settings.languages.en\",\"selected\":true}],\"title\":\"settings.language\"}],\"currency\":[{\"value\":\"$\",\"title\":\"settings.currency.symbol.title\"},{\"value\":[{\"value\":\"before\",\"title\":\"settings.currency.symbol.before\",\"selected\":true},{\"value\":\"after\",\"title\":\"settings.currency.symbol.after\"}],\"title\":\"settings.currency.symbol.position\"}]}"
+        }
+      ]
+    }
+  ]
+}

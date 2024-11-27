@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StructureCategories Should render 1`] = `
+"<div class="v-table v-table--has-top v-table--has-bottom v-theme--light v-table--density-default v-data-table h-100" data-testid="structure-categories-data-table">
+  <div flat="">
+    <div class="ms-3 me-3" size="large">mdi-label-percent</div>
+    <div class="d-none d-md-block ms-0">Test StructureCategories</div>
+    <div class="w-25">
+      <div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--light v-locale--is-ltr v-input--dirty v-text-field v-select v-select--single v-select--selected me-2" data-testid="structure-categories-structure-select">
+        <!---->
+        <div class="v-input__control">
+          <div class="v-field v-field--active v-field--appended v-field--center-affix v-field--dirty v-field--prepended v-field--no-label v-field--variant-filled v-theme--light v-locale--is-ltr" role="combobox">
+            <div class="v-field__overlay"></div>
+            <div class="v-field__loader">
+              <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+                <!---->
+                <div class="v-progress-linear__background"></div>
+                <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                  <div class="v-progress-linear__indeterminate">
+                    <div class="v-progress-linear__indeterminate long"></div>
+                    <div class="v-progress-linear__indeterminate short"></div>
+                  </div>
+                </transition-stub>
+                <!---->
+              </div>
+            </div>
+            <div class="v-field__prepend-inner">
+              <div icon="mdi-list-box"></div>
+              <!---->
+            </div>
+            <div class="v-field__field" data-no-activator="">
+              <!----><label class="v-label v-field-label" for="input-0">
+                <!---->
+                <!---->
+              </label>
+              <!---->
+              <div class="v-field__input" data-no-activator="">
+                <!---->
+                <!---->
+                <div class="v-select__selection"><span class="v-select__selection-text">0<!----></span></div><input size="1" type="text" id="input-0" aria-describedby="input-0-messages" inputmode="none" aria-label="Open" title="Open" value="0">
+              </div>
+              <!---->
+            </div>
+            <!---->
+            <div class="v-field__append-inner">
+              <!---->
+              <div class="v-select__menu-icon" icon="$dropdown"></div>
+              <!---->
+            </div>
+            <div class="v-field__outline">
+              <!---->
+              <!---->
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <v-divider-stub class="ms-3 me-3" vertical=""></v-divider-stub>
+    <v-btn-stub class="me-2" data-testid="structure-categories-add-button" color="primary-darken-3" disabled="false"></v-btn-stub>
+  </div>
+  <div class="v-table__wrapper">
+    <table>
+      <!---->
+      <thead>
+        <tr>
+          <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>categories.1</span>
+              <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
+              <!---->
+            </div>
+          </th>
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 100px; max-width: 130px; position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>portfolio.target_percent</span>
+              <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
+              <!---->
+            </div>
+          </th>
+          <th class="v-data-table__td v-data-table-column--align-center v-data-table__th v-data-table__th--sticky" style="width: 80px; max-width: 80px; position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>actions</span>
+              <!---->
+              <!---->
+            </div>
+          </th>
+        </tr>
+        <!---->
+      </thead>
+      <!---->
+      <tbody>
+        <!---->
+        <tr class="v-data-table__tr">
+          <td class="v-data-table__td v-data-table-column--align-start">Category 1</td>
+          <td class="v-data-table__td v-data-table-column--align-end" style="width: 100px; max-width: 130px;">10%</td>
+          <td class="v-data-table__td v-data-table-column--align-center" style="width: 80px; max-width: 80px;">
+            <div class="me-2" size="small"> mdi-pencil </div>
+            <div size="small"> mdi-delete </div>
+          </td>
+        </tr>
+        <!---->
+        <tr class="v-data-table__tr">
+          <td class="v-data-table__td v-data-table-column--align-start">Category 2</td>
+          <td class="v-data-table__td v-data-table-column--align-end" style="width: 100px; max-width: 130px;">20%</td>
+          <td class="v-data-table__td v-data-table-column--align-center" style="width: 80px; max-width: 80px;">
+            <div class="me-2" size="small"> mdi-pencil </div>
+            <div size="small"> mdi-delete </div>
+          </td>
+        </tr>
+        <!---->
+        <tr class="v-data-table__tr">
+          <td class="v-data-table__td v-data-table-column--align-start">Category 3</td>
+          <td class="v-data-table__td v-data-table-column--align-end" style="width: 100px; max-width: 130px;">30%</td>
+          <td class="v-data-table__td v-data-table-column--align-center" style="width: 80px; max-width: 80px;">
+            <div class="me-2" size="small"> mdi-pencil </div>
+            <div size="small"> mdi-delete </div>
+          </td>
+        </tr>
+        <!---->
+        <tr class="v-data-table__tr">
+          <td class="v-data-table__td v-data-table-column--align-start">Category 4</td>
+          <td class="v-data-table__td v-data-table-column--align-end" style="width: 100px; max-width: 130px;">40%</td>
+          <td class="v-data-table__td v-data-table-column--align-center" style="width: 80px; max-width: 80px;">
+            <div class="me-2" size="small"> mdi-pencil </div>
+            <div size="small"> mdi-delete </div>
+          </td>
+        </tr>
+        <!---->
+        <!---->
+      </tbody>
+      <!---->
+      <!---->
+    </table>
+  </div>
+  <div flat="">
+    <v-btn-stub class="ms-3" data-testid="structure-categories-set-as-current-button" color="primary-darken-3" disabled="false"></v-btn-stub>
+    <v-divider-stub class="ms-3 me-3" vertical=""></v-divider-stub>
+    <v-spacer-stub></v-spacer-stub>
+    <div class="text-right text-h6 me-3">0% <div class="ms-1" color="error" icon="mdi-alert" size="small"></div>
+    </div>
+  </div>
+</div>
+<form-dialog-stub opened="false" params="[object Object]" show-reset-button="false" title=""></form-dialog-stub>
+<delete-confirmation-dialog-stub opened="false" text=""></delete-confirmation-dialog-stub>"
+`;

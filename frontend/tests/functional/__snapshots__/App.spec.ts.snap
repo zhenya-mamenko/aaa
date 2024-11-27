@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Should render 1`] = `
+"<div full-height="" theme="lightTheme">
+  <div color="primary" scroll-behavior="fully-hide">
+    <v-app-bar-nav-icon-stub data-testid="app-icon" variant="text"></v-app-bar-nav-icon-stub>
+    <div data-testid="app-title">app_title</div>
+    <v-btn-stub data-testid="app-configure" icon="mdi-cog"></v-btn-stub>
+  </div>
+  <div color="primary" data-testid="app-navigation-drawer" temporary="true" modelvalue="false">
+    <div class="v-list v-theme--light v-list--density-default v-list--one-line" tabindex="0" role="listbox" data-testid="app-menu">
+      <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+        <!---->
+        <div class="v-list-item__content" data-no-activator="">
+          <div class="v-list-item-title">portfolio.title</div>
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+      <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+        <!---->
+        <div class="v-list-item__content" data-no-activator="">
+          <div class="v-list-item-title">assets.state</div>
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+      <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+        <!---->
+        <div class="v-list-item__content" data-no-activator="">
+          <div class="v-list-item-title">assets.statements</div>
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+      <v-divider-stub inset="false" vertical="false"></v-divider-stub>
+      <div class="v-list-group">
+        <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text v-list-group__header" tabindex="-2" id="v-list-group--id-Symbol(3)"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+          <!---->
+          <div class="v-list-item__content" data-no-activator="">
+            <div class="v-list-item-title">dictionaries</div>
+            <!---->
+            <!---->
+          </div>
+          <div class="v-list-item__append">
+            <div density="default" icon="$expand"></div>
+            <!---->
+            <div class="v-list-item__spacer"></div>
+          </div>
+        </div>
+        <transition-stub name="" appear="false" persisted="false" css="false">
+          <div class="v-list-group__items" role="group" aria-labelledby="v-list-group--id-Symbol(3)" style="display: none;">
+            <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+              <!---->
+              <div class="v-list-item__content" data-no-activator="">
+                <div class="v-list-item-title">structures.assets</div>
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <v-divider-stub inset="false" vertical="false"></v-divider-stub>
+            <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+              <!---->
+              <div class="v-list-item__content" data-no-activator="">
+                <div class="v-list-item-title">assets.title</div>
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+              <!---->
+              <div class="v-list-item__content" data-no-activator="">
+                <div class="v-list-item-title">categories.title</div>
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+              <!---->
+              <div class="v-list-item__content" data-no-activator="">
+                <div class="v-list-item-title">classes.title</div>
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+              <!---->
+              <div class="v-list-item__content" data-no-activator="">
+                <div class="v-list-item-title">structures.title</div>
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+        </transition-stub>
+      </div>
+      <v-divider-stub inset="false" vertical="false"></v-divider-stub>
+      <div class="v-list-item v-list-item--link v-theme--light v-list-item--density-default v-list-item--one-line rounded-0 v-list-item--variant-text" tabindex="-2"><span class="v-list-item__overlay"></span><span class="v-list-item__underlay"></span>
+        <!---->
+        <div class="v-list-item__content" data-no-activator="">
+          <div class="v-list-item-title">settings.title</div>
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="v-container v-locale--is-ltr h-100">
+      <div class="v-row h-100">
+        <div class="v-col-lg-10 v-col-xl-8 v-col-xxl-6 offset-lg-1 offset-xl-2 offset-xxl-3 v-col-12 h-100 max">
+          <v-data-table-stub data-testid="portfolio-page-data-table" class="h-100" headers="[object Object],[object Object],[object Object],[object Object]" hide-default-footer="" items="" items-per-page="100" loading="true" loading-text="messages.loading" sort-asc-icon="mdi-triangle-small-up" sort-desc-icon="mdi-triangle-small-down" sticky="true"></v-data-table-stub>
+        </div>
+      </div>
+      <form-dialog-stub opened="false" params="[object Object]" title=""></form-dialog-stub>
+    </div>
+  </div>
+</div>"
+`;

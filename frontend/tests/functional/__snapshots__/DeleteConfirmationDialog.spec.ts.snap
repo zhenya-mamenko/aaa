@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteConfirmationDialog Should render 1`] = `
+"<div max-width="600px" modelvalue="true">
+  <div class="pa-3">
+    <div class="ms-2" data-testid="delete-confirmation-dialog-title">confirmations.title</div>
+    <div>
+      <div class="mb-2" data-testid="delete-confirmation-dialog-text">Test</div>
+      <div class="mb-3" data-testid="delete-confirmation-dialog-confirm-text">confirmations.delete_confirm</div>
+      <v-text-field-stub data-testid="delete-confirmation-dialog-input" density="compact" hide-details="" required="" modelvalue="test"></v-text-field-stub>
+    </div>
+    <div class="pe-4 me-2">
+      <v-spacer-stub></v-spacer-stub>
+      <v-btn-stub color="primary" data-testid="delete-confirmation-dialog-delete-button" disabled="true"></v-btn-stub>
+      <v-btn-stub></v-btn-stub>
+    </div>
+  </div>
+</div>"
+`;

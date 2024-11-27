@@ -1,0 +1,367 @@
+{
+  "assets": [
+    {
+      "asset_id": 1,
+      "category_id": 1,
+      "class_name": "Class A",
+      "category_name": "Category 1",
+      "asset_name": "Asset 1",
+      "asset_ticker": "A1"
+    },
+    {
+      "asset_id": 2,
+      "category_id": 2,
+      "class_name": "Class B",
+      "category_name": "Category 2",
+      "asset_name": "Asset 2",
+      "asset_ticker": "A2"
+    },
+    {
+      "asset_id": 3,
+      "category_id": 3,
+      "class_name": "Class C",
+      "category_name": "Category 3",
+      "asset_name": "Asset 3",
+      "asset_ticker": "A3"
+    },
+    {
+      "asset_id": 4,
+      "category_id": 4,
+      "class_name": "Class D",
+      "category_name": "Category 4",
+      "asset_name": "Asset 4",
+      "asset_ticker": "A4"
+    },
+    {
+      "asset_id": 5,
+      "category_id": 5,
+      "class_name": "Class E",
+      "category_name": "Category 5",
+      "asset_name": "Asset 5",
+      "asset_ticker": "A5"
+    },
+    {
+      "asset_id": 6,
+      "category_id": 6,
+      "class_name": "Class F",
+      "category_name": "Category 6",
+      "asset_name": "Asset 6",
+      "asset_ticker": "A6"
+    },
+    {
+      "asset_id": 7,
+      "category_id": 7,
+      "class_name": "Class G",
+      "category_name": "Category 7",
+      "asset_name": "Asset 7",
+      "asset_ticker": "A7"
+    },
+    {
+      "asset_id": 8,
+      "category_id": 8,
+      "class_name": "Class H",
+      "category_name": "Category 8",
+      "asset_name": "Asset 8",
+      "asset_ticker": "A8"
+    },
+    {
+      "asset_id": 9,
+      "category_id": 9,
+      "class_name": "Class I",
+      "category_name": "Category 9",
+      "asset_name": "Asset 9",
+      "asset_ticker": "A9"
+    },
+    {
+      "asset_id": 10,
+      "category_id": 10,
+      "class_name": "Class J",
+      "category_name": "Category 10",
+      "asset_name": "Asset 10",
+      "asset_ticker": "A10"
+    }
+  ],
+  "assets_state": [
+    {
+      "asset_id": 1,
+      "class_name": "Class A",
+      "category_name": "Category 1",
+      "asset_name": "Asset 1",
+      "asset_ticker": "A1",
+      "last": 100,
+      "lag": 90,
+      "first": 80,
+      "last_lag_percent": 11.11,
+      "last_first_percent": 25,
+      "lag_first_percent": 12.5,
+      "out_last": "$ 100",
+      "out_lag": "$ 90",
+      "out_first": "$ 80",
+      "out_last_lag_percent": "11.11%",
+      "out_last_first_percent": "25%",
+      "out_lag_first_percent": "12.5%"
+    },
+    {
+      "asset_id": 2,
+      "class_name": "Class B",
+      "category_name": "Category 2",
+      "asset_name": "Asset 2",
+      "asset_ticker": "A2",
+      "last": 200,
+      "lag": 180,
+      "first": 160,
+      "last_lag_percent": -11.11,
+      "last_first_percent": -25,
+      "lag_first_percent": -12.5,
+      "out_last": "$ 200",
+      "out_lag": "$ 180",
+      "out_first": "$ 160",
+      "out_last_lag_percent": "-11.11%",
+      "out_last_first_percent": "-25%",
+      "out_lag_first_percent": "-12.5%"
+    },
+    {
+      "asset_id": 3,
+      "class_name": "Class C",
+      "category_name": "Category 3",
+      "asset_name": "Asset 3",
+      "asset_ticker": "A3",
+      "last": 300,
+      "lag": 270,
+      "first": 240,
+      "last_lag_percent": 11.11,
+      "last_first_percent": 25,
+      "lag_first_percent": 12.5,
+      "out_last": "$ 300",
+      "out_lag": "$ 270",
+      "out_first": "$ 240",
+      "out_last_lag_percent": "11.11%",
+      "out_last_first_percent": "25%",
+      "out_lag_first_percent": "12.5%"
+    },
+    {
+      "asset_id": 4,
+      "class_name": "Class D",
+      "category_name": "Category 4",
+      "asset_name": "Asset 4",
+      "asset_ticker": "A4",
+      "last": 400,
+      "lag": 360,
+      "first": 320,
+      "last_lag_percent": 11.11,
+      "last_first_percent": 25,
+      "lag_first_percent": 12.5,
+      "out_last": "$ 400",
+      "out_lag": "$ 360",
+      "out_first": "$ 320",
+      "out_last_lag_percent": "11.11%",
+      "out_last_first_percent": "25%",
+      "out_lag_first_percent": "12.5%"
+    },
+    {
+      "asset_id": 5,
+      "class_name": "Class E",
+      "category_name": "Category 5",
+      "asset_name": "Asset 5",
+      "asset_ticker": "A5",
+      "last": 500,
+      "lag": 450,
+      "first": 400,
+      "last_lag_percent": 11.11,
+      "last_first_percent": 25,
+      "lag_first_percent": 12.5,
+      "out_last": "$ 500",
+      "out_lag": "$450",
+      "out_first": "$ 400",
+      "out_last_lag_percent": "11.11%",
+      "out_last_first_percent": "25%",
+      "out_lag_first_percent": "12.5%"
+    }
+  ],
+  "assets_values": [
+    {
+      "asset_id": 1,
+      "class_name": "Class 1",
+      "category_name": "Category 1",
+      "asset_name": "Asset 1",
+      "asset_ticker": "A1",
+      "asset_value_datetime": "2023-01-01T00:00:00Z",
+      "amount": 100,
+      "out_amount": "100"
+    },
+    {
+      "asset_id": 2,
+      "class_name": "Class 2",
+      "category_name": "Category 2",
+      "asset_name": "Asset 2",
+      "asset_ticker": "A2",
+      "asset_value_datetime": "2023-01-01T00:00:00Z",
+      "amount": 200,
+      "out_amount": "200"
+    },
+    {
+      "asset_id": 3,
+      "class_name": "Class 3",
+      "category_name": "Category 3",
+      "asset_name": "Asset 23",
+      "asset_ticker": "A3",
+      "asset_value_datetime": "2023-01-01T00:00:00Z",
+      "amount": 300,
+      "out_amount": "300"
+    }
+  ],
+  "categories": [
+    {
+      "category_id": 1,
+      "class_name": "Class 1",
+      "category_name": "Category 1",
+      "out_percentile": "10%"
+    },
+    {
+      "category_id": 2,
+      "class_name": "Class 2",
+      "category_name": "Category 2",
+      "out_percentile": "20%"
+    },
+    {
+      "category_id": 3,
+      "class_name": "Class 3",
+      "category_name": "Category 3",
+      "out_percentile": "30%"
+    },
+    {
+      "category_id": 4,
+      "class_name": "Class 3",
+      "category_name": "Category 4",
+      "out_percentile": "40%"
+    }
+  ],
+  "structure_categories": [
+    {
+      "structure_id": 1,
+      "category_id": 1,
+      "class_name": "Class 1",
+      "category_name": "Category 1",
+      "percentile": 500,
+      "out_percentile": "50%"
+    },
+    {
+      "structure_id": 1,
+      "category_id": 2,
+      "class_name": "Class 2",
+      "category_name": "Category 2",
+      "percentile": 200,
+      "out_percentile": "20%"
+    },
+    {
+      "structure_id": 1,
+      "category_id": 3,
+      "class_name": "Class 3",
+      "category_name": "Category 3",
+      "percentile": 300,
+      "out_percentile": "30%"
+    },
+    {
+      "structure_id": 2,
+      "category_id": 1,
+      "class_name": "Class 1",
+      "category_name": "Category 1",
+      "percentile": 150,
+      "out_percentile": "15%"
+    },
+    {
+      "structure_id": 2,
+      "category_id": 2,
+      "class_name": "Class 2",
+      "category_name": "Category 2",
+      "percentile": 250,
+      "out_percentile": "25%"
+    },
+    {
+      "structure_id": 2,
+      "category_id": 3,
+      "class_name": "Class 3",
+      "category_name": "Category 3",
+      "percentile": 330,
+      "out_percentile": "33%"
+    },
+    {
+      "structure_id": 2,
+      "category_id": 4,
+      "class_name": "Class 3",
+      "category_name": "Category 4",
+      "percentile": 270,
+      "out_percentile": "27%"
+    }
+  ],
+  "classes": [
+    { "class_id": 1, "class_name": "Test" },
+    { "class_id": 2, "class_name": "Test2" },
+    { "class_id": 3, "class_name": "Test3" },
+    { "class_id": 4, "class_name": "Test33" }
+  ],
+  "config": [
+    {
+      "config_name": "currency",
+      "config_value": {
+        "symbol": "$",
+        "position": "before"
+      }
+    }
+  ],
+  "portfolio": [
+    {
+      "category_id": 1,
+      "class_name": "Class A",
+      "category_name": "Category 1",
+      "structure_percentile": 100,
+      "out_structure_percentile": "10%",
+      "amount": 10000,
+      "out_amount": "$100.00",
+      "total": 50000,
+      "out_total": "$500.00",
+      "current_percentile": 200,
+      "out_current_percentile": "20%"
+    },
+    {
+      "category_id": 2,
+      "class_name": "Class B",
+      "category_name": "Category 2",
+      "structure_percentile": 150,
+      "out_structure_percentile": "15%",
+      "amount": 20000,
+      "out_amount": "$200.00",
+      "total": 60000,
+      "out_total": "$600.00",
+      "current_percentile": 150,
+      "out_current_percentile": "15%"
+    },
+    {
+      "category_id": 3,
+      "class_name": "Class C",
+      "category_name": "Category 3",
+      "structure_percentile": 200,
+      "out_structure_percentile": "20%",
+      "amount": 30000,
+      "out_amount": "$300.00",
+      "total": 70000,
+      "out_total": "$700.00",
+      "current_percentile": 250,
+      "out_current_percentile": "25%"
+    }
+  ],
+  "structures": [
+    {
+      "structure_id": 1,
+      "structure_date": "2023-01-01",
+      "structure_name": "Structure 1",
+      "is_current": false
+    },
+    {
+      "structure_id": 2,
+      "structure_date": "2023-02-01",
+      "structure_name": "Structure 2",
+      "is_current": true
+    }
+  ]
+}

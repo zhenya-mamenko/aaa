@@ -1,0 +1,256 @@
+{
+  "en": {
+    "app_title": "Assets Allocation",
+    "actions": "Actions",
+    "assets": {
+      "amount": "Amount",
+      "title": "Assets",
+      "state": "Assets state",
+      "1": "Asset",
+      "2": "Asset",
+      "statements": "Statements",
+      "statements.1": "Statement",
+      "statements.2": "Statement",
+      "prev": "Previous amount",
+      "prev_change": "Change, %",
+      "settings": {
+        "show_from_first": "Show first amount for asset, not a previous"
+      },
+      "ticker": "Ticker"
+    },
+    "buttons": {
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "reset": "Reset settings"
+    },
+    "categories": {
+      "title": "Categories",
+      "1": "Category",
+      "2": "Category"
+    },
+    "classes": {
+      "title": "Classes",
+      "1": "Class",
+      "2": "Class"
+    },
+    "confirmations": {
+      "title": "Confirmation needed",
+      "delete_text": "This action will remove the \"{0}\" item from the database and can't be undone.",
+      "delete_confirm": "Confirm deletion by typing \"delete\" below:"
+    },
+    "date": {
+      "title": "Date",
+      "from": "from",
+      "to": "to"
+    },
+    "dictionaries": "Dictionaries",
+    "errors": {
+      "required": "Required field",
+      "min_value": "Minimum value is {0}",
+      "max_value": "Maximum value is {0}",
+      "max_length": "Maximum length is {0}",
+      "min_length": "Minimum length is {0}",
+      "value_range": "Value should be in range from {0} to {1}",
+      "length_range": "Length should be in range from {0} to {1}",
+      "invalid_format": "Invalid format",
+      "invalid_value": "Invalid value",
+      "number": "Should be a number",
+      "integer": "Should be an integer"
+    },
+    "id": "ID",
+    "messages": {
+      "backend": {
+        "request_error": "Request failed with status code {0}. {1}",
+        "no_response": "No response received",
+        "FOREIGN_KEY_constraint_failed": "This item is used in other tables and can't be deleted",
+        "UNIQUE_constraint_failed": "This item already exists",
+        "Structure_can't_contain_categories_with_sum_of_percentile_>_1000": "Structure can't contain categories with sum of percents > 100",
+        "unknown_error": "Unknown error"
+      },
+      "loading": "Loading...",
+      "added": "Element added",
+      "saved": "Element saved",
+      "deleted": "Element deleted",
+      "updated": "Element updated",
+      "yes": "Yes",
+      "no": "No",
+      "less_100_percents": "Sum of pecents in structure should be equal 100, but now {0}",
+      "structure_now_is_current": "Structure now is current"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "current_percent": "Current %",
+      "target_percent": "Target %",
+      "diff_warning": "Warn, if difference between current and target % more than (p.p.)",
+      "replenishment": "Replenishment",
+      "rebalancing": "Rebalancing",
+      "calculate": "Calculate",
+      "reset": "Reset",
+      "result": "Result"
+    },
+    "search": "Search",
+    "settings": {
+      "title": "Settings",
+      "columns": "Columns",
+      "language": "Interface language",
+      "languages": {
+        "en": "English",
+        "ru": "Русский"
+      },
+      "theme": {
+        "title": "Theme",
+        "dark": "Dark",
+        "light": "Light"
+      },
+      "currency": {
+        "title": "Currency",
+        "symbol": {
+          "title": "Currency symbol",
+          "before": "Before amount",
+          "after": "After amount",
+          "position": "Position"
+        }
+      }
+    },
+    "structures": {
+      "title": "Structures",
+      "1": "Structure",
+      "2": "Structure",
+      "assets": "Assets structure",
+      "current": "Current",
+      "element": "Element",
+      "set_as_current": "Set as current"
+    }
+  },
+  "ru": {
+    "app_title": "Распределение активов",
+    "actions": "Действия",
+    "assets": {
+      "amount": "Сумма",
+      "title": "Активы",
+      "state": "Состояние активов",
+      "1": "Актив",
+      "2": "Актив",
+      "statements": "Выписки",
+      "statements.1": "Выписка",
+      "statements.2": "Выписку",
+      "prev": "Сумма до",
+      "prev_change": "Изм, %",
+      "settings": {
+        "show_from_first": "Показывать первую сумму для актива, а не предыдущую"
+      },
+      "ticker": "Тикер"
+    },
+    "buttons": {
+      "add": "Добавить",
+      "edit": "Изменить",
+      "delete": "Удалить",
+      "save": "Сохранить",
+      "cancel": "Отменить",
+      "close": "Закрыть",
+      "reset": "Сбросить настройки"
+    },
+    "categories": {
+      "title": "Категории",
+      "1": "Категория",
+      "2": "Категорию"
+    },
+    "classes": {
+      "title": "Классы",
+      "1": "Класс",
+      "2": "Класс"
+    },
+    "confirmations": {
+      "title": "Требуется подтверждение",
+      "delete_text": "Это действие удалит элемент \"{0}\" из базы данных, и оно не может быть отменено.",
+      "delete_confirm": "Подтвердите удаление, введя \"delete\" ниже:"
+    },
+    "date": {
+      "title": "Дата",
+      "from": "от",
+      "to": "до"
+    },
+    "dictionaries": "Справочники",
+    "errors": {
+      "required": "Обязательное поле",
+      "min_value": "Минимальное значение {0}",
+      "max_value": "Максимальное значение {0}",
+      "max_length": "Максимальная длина {0}",
+      "min_length": "Минимальная длина {0}",
+      "value_range": "Значение должно быть в диапазоне от {0} до {1}",
+      "length_range": "Длина должна быть в диапазоне от {0} до {1}",
+      "invalid_format": "Неверный формат",
+      "invalid_value": "Неверное значение",
+      "number": "Должно быть числом",
+      "integer": "Должно быть целым числом"
+    },
+    "id": "ID",
+    "messages": {
+      "backend": {
+        "request_error": "Запрос завершился с кодом статуса {0}. {1}",
+        "no_response": "Не получен ответ",
+        "FOREIGN_KEY_constraint_failed": "Этот элемент используется в других таблицах и не может быть удален",
+        "UNIQUE_constraint_failed": "Этот элемент уже существует",
+        "Structure_can't_contain_categories_with_sum_of_percentile_>_1000": "Структура не может содержать категории с суммой процентов > 100",
+        "unknown_error": "Неизвестная ошибка"
+      },
+      "loading": "Загрузка...",
+      "added": "Элемент добавлен",
+      "saved": "Элемент сохранён",
+      "deleted": "Элемент удалён",
+      "updated": "Элемент обновлён",
+      "yes": "Да",
+      "no": "Нет",
+      "less_100_percents": "Сумма процентов в структуре должна быть равна 100, а сейчас {0}",
+      "structure_now_is_current": "Структура теперь является текущей"
+    },
+    "portfolio": {
+      "title": "Портфель",
+      "current_percent": "Текущий %",
+      "target_percent": "Целевой %",
+      "diff_warning": "Предупреждать, если разница между текущим и целевым % больше (п.п.)",
+      "replenishment": "Пополнение",
+      "rebalancing": "Ребалансировка",
+      "calculate": "Рассчитать",
+      "reset": "Сбросить",
+      "result": "Расчёт"
+    },
+    "search": "Поиск",
+    "settings": {
+      "title": "Настройки",
+      "columns": "Колонки",
+      "language": "Язык интерфейса",
+      "languages": {
+        "en": "English",
+        "ru": "Русский"
+      },
+      "theme": {
+        "title": "Тема",
+        "dark": "Тёмная",
+        "light": "Светлая"
+      },
+      "currency": {
+        "title": "Валюта",
+        "symbol": {
+          "title": "Символ валюты",
+          "before": "Перед суммой",
+          "after": "После суммы",
+          "position": "Позиция"
+        }
+      }
+    },
+    "structures": {
+      "title": "Структуры",
+      "1": "Структура",
+      "2": "Структуру",
+      "assets": "Структура активов",
+      "current": "Текущая",
+      "element": "Элемент",
+      "set_as_current": "Установить текущей"
+    }
+  }
+}

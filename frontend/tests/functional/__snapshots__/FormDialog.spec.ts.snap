@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDialog Should render 1`] = `
+"<div max-width="700px" persistent="true" modelvalue="false">
+  <div class="pa-3">
+    <div class="ms-2">Test</div>
+    <div>
+      <form class="ma-0 pa-0" modelvalue="true">
+        <div class="v-container v-locale--is-ltr ma-0 pa-0">
+          <div class="v-row">
+            <div class="v-col-md-12 v-col-12 pt-1 pb-1 a">
+              <v-switch-stub color="primary" density="comfortable" data-testid="switch-prop1" hide-details="true" inset="" label="prop1" modelvalue="true"></v-switch-stub>
+            </div>
+            <!--v-if-->
+          </div>
+          <div class="v-row">
+            <div class="v-col-md-12 v-col-12 pt-1 pb-1 a">
+              <v-text-field-stub counter="false" data-testid="text-field-prop2" hide-spin-buttons="" label="prop2" persistent-hint="" rules="" type="text" modelvalue="test"></v-text-field-stub>
+            </div>
+            <!--v-if-->
+          </div>
+          <div class="v-row">
+            <div class="v-col">
+              <v-divider-stub class="mt-1 mb-1"></v-divider-stub>
+            </div>
+          </div>
+          <div class="v-row">
+            <div class="v-col v-col-3 d-none d-md-inline text-h6">settings.columns</div>
+            <div class="v-col">
+              <div>
+                <div class="border pa-1 ps-3 mb-1 rounded-lg bg-primary-lighten-5" data-draggable="true">
+                  <v-switch-stub color="primary" data-testid="switch-column1" density="comfortable" disabled="true" hide-details="true" inset="" label="column1" modelvalue="true"></v-switch-stub>
+                </div>
+                <div class="border pa-1 ps-3 mb-1 rounded-lg bg-primary-lighten-5" data-draggable="true">
+                  <v-switch-stub color="primary" data-testid="switch-column2" density="comfortable" disabled="false" hide-details="true" inset="" label="column2" modelvalue="false"></v-switch-stub>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="pe-4 me-2">
+      <v-btn-stub data-testid="form-dialog-reset-button"></v-btn-stub>
+      <v-spacer-stub></v-spacer-stub>
+      <v-btn-stub color="primary" data-testid="form-dialog-save-button" disabled="false"></v-btn-stub>
+      <v-btn-stub></v-btn-stub>
+    </div>
+  </div>
+</div>"
+`;

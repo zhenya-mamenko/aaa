@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioPage Should render 1`] = `
+"<div class="v-table v-table--has-top v-table--has-bottom v-theme--light v-table--density-default v-data-table h-100" data-testid="portfolio-page-data-table">
+  <div flat="">
+    <div class="ms-3" size="large">mdi-briefcase-variant</div>
+    <div>Test Portfolio</div>
+  </div>
+  <div class="v-table__wrapper">
+    <table>
+      <!---->
+      <thead>
+        <tr>
+          <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="min-width: 150px; position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>categories.1</span>
+              <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
+              <!---->
+            </div>
+          </th>
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 90px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>portfolio.target_percent</span>
+              <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
+              <!---->
+            </div>
+          </th>
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 90px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>portfolio.current_percent</span>
+              <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
+              <!---->
+            </div>
+          </th>
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 80px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
+            <div class="v-data-table-header__content"><span>assets.amount</span>
+              <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
+              <!---->
+            </div>
+          </th>
+        </tr>
+        <!---->
+      </thead>
+      <!---->
+      <tbody>
+        <!---->
+        <tr>
+          <td align="start">Category 1
+            <!--v-if-->
+          </td>
+          <td align="end">10%
+            <!--v-if-->
+          </td>
+          <td align="end">
+            <div>20% <div color="warning" icon="mdi-alert" size="x-small"></div>
+            </div>
+          </td>
+          <td align="end">$100.00
+            <!--v-if-->
+          </td>
+        </tr>
+        <!---->
+        <tr>
+          <td align="start">Category 2
+            <!--v-if-->
+          </td>
+          <td align="end">15%
+            <!--v-if-->
+          </td>
+          <td align="end">
+            <div>15%
+              <!--v-if-->
+            </div>
+          </td>
+          <td align="end">$200.00
+            <!--v-if-->
+          </td>
+        </tr>
+        <!---->
+        <tr>
+          <td align="start">Category 3
+            <!--v-if-->
+          </td>
+          <td align="end">20%
+            <!--v-if-->
+          </td>
+          <td align="end">
+            <div>25% <div color="warning" icon="mdi-alert" size="x-small"></div>
+            </div>
+          </td>
+          <td align="end">$300.00
+            <!--v-if-->
+          </td>
+        </tr>
+        <!---->
+        <!---->
+      </tbody>
+      <!---->
+      <!---->
+    </table>
+  </div>
+  <div flat="">
+    <div class="ms-3 me-3" density="comfortable" mandatory="" rounded="4" modelvalue="replenishment">
+      <v-btn-stub color="primary-darken-3" data-testid="portfolio-page-action-replenishment" value="replenishment"></v-btn-stub>
+      <v-btn-stub color="primary-darken-3" data-testid="portfolio-page-action-rebalancing" value="rebalancing"></v-btn-stub>
+    </div>
+    <div class="w-25">
+      <div class="v-input v-input--horizontal v-input--center-affix v-input--hide-spin-buttons v-input--density-compact v-theme--light v-locale--is-ltr v-input--dirty v-text-field v-text-field--suffixed ms-3 me-3" data-testid="portfolio-page-summa-input">
+        <!---->
+        <div class="v-input__control">
+          <div class="v-field v-field--active v-field--center-affix v-field--dirty v-field--single-line v-field--no-label v-field--variant-filled v-theme--light v-locale--is-ltr">
+            <div class="v-field__overlay"></div>
+            <div class="v-field__loader">
+              <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+                <!---->
+                <div class="v-progress-linear__background"></div>
+                <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                  <div class="v-progress-linear__indeterminate">
+                    <div class="v-progress-linear__indeterminate long"></div>
+                    <div class="v-progress-linear__indeterminate short"></div>
+                  </div>
+                </transition-stub>
+                <!---->
+              </div>
+            </div>
+            <!---->
+            <div class="v-field__field" data-no-activator="">
+              <!----><label class="v-label v-field-label" for="input-0">
+                <!---->
+                <!---->
+              </label>
+              <!----><input size="1" type="number" id="input-0" aria-describedby="input-0-messages" class="v-field__input" value="0"><span class="v-text-field__suffix"><span class="v-text-field__suffix__text">€</span></span>
+            </div>
+            <!---->
+            <!---->
+            <div class="v-field__outline">
+              <!---->
+              <!---->
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <v-divider-stub class="ms-1 me-1" vertical=""></v-divider-stub>
+    <v-btn-stub color="primary-darken-3" data-testid="portfolio-page-calculate-button" disabled="true"></v-btn-stub>
+    <v-btn-stub color="primary-darken-3" data-testid="portfolio-page-reset-button" disabled="true"></v-btn-stub>
+  </div>
+</div>"
+`;
