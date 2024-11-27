@@ -24,10 +24,25 @@ jobs:
           npm ci
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+      - name: Reinstall sqlite3
+        run: |
+          download_link="https://www.sqlite.org/2024/sqlite-tools-linux-x64-3470100.zip"
+          wget "$download_link" -P /tmp
+          unzip "/tmp/$(basename "$download_link")" -d /tmp
+          sudo install /tmp/sqlite3 /usr/local/bin/
+      - name: Install python dependencies
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          nohup uvicorn app:fastapi_app &
       - name: Run Playwright tests
         run: |
-          cd backend/
-          nohup uvicorn app:fastapi_app &
           cd ../frontend/
           nohup python -m http.server &
           npm run test:playwright
