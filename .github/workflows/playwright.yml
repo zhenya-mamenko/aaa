@@ -44,5 +44,8 @@ jobs:
       - name: Run Playwright tests
         run: |
           cd frontend
+          npm run build-only
+          cd dist
           nohup python3 -m http.server 3000 &
+          cd ..
           npm run test:playwright
