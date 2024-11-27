@@ -133,7 +133,7 @@ exports[`StructureCategories Should render 1`] = `
     </table>
   </div>
   <div flat="">
-    <v-btn-stub class="ms-3" data-testid="structure-categories-set-as-current-button" color="primary-darken-3" disabled="false"></v-btn-stub>
+    <v-btn-stub class="ms-3" data-testid="structure-categories-set-as-current-button" color="primary-darken-3" disabled="true"></v-btn-stub>
     <v-divider-stub class="ms-3 me-3" vertical=""></v-divider-stub>
     <v-spacer-stub></v-spacer-stub>
     <div class="text-right text-h6 me-3">0% <div class="ms-1" color="error" icon="mdi-alert" size="small"></div>

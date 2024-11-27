@@ -147,7 +147,7 @@ export default defineComponent({
   data() {
     return {
       structures: [] as any[],
-      structure_id: "",
+      structure_id: "" as string | number,
       categories: [] as StructureCategoryResponse[],
       confirmationDialog: {
         id: 0 as number,
@@ -236,7 +236,7 @@ export default defineComponent({
     },
     async deleteItem(id: number) {
       try {
-        await ds.delete(this.structure_id, id);
+        await ds.delete(this.structure_id as number, id);
         this.confirmationDialog.opened = false;
         this.loadCategories()
         this.info = {
@@ -283,7 +283,7 @@ export default defineComponent({
       this.isLoading = true;
       (this.$refs.structureSelect as HTMLInputElement)?.blur();
       this.is_current = this.structures.find((item: any) => item.value === this.structure_id)?.is_current;
-      const categories = await ds.getAll(this.structure_id) as StructureCategoryResponse[];
+      const categories = await ds.getAll(this.structure_id as number) as StructureCategoryResponse[];
       this.categories = categories;
       this.structureSum = categories.reduce((acc: number, item: StructureCategoryResponse) => acc + item.percentile, 0) / 10;
       this.isLoading = false;
@@ -357,7 +357,7 @@ export default defineComponent({
         return;
       }
       try {
-        await ds.set_structure_as_default(this.structure_id);
+        await ds.set_structure_as_default(this.structure_id as number);
         this.loadData();
         this.info = {
           show: true,
@@ -376,7 +376,7 @@ export default defineComponent({
     },
     async update(item: StructureCategory) {
       try {
-        await ds.update(this.structure_id, item);
+        await ds.update(this.structure_id as number, item);
         this.loadCategories();
         this.close();
         this.info = {

@@ -48,7 +48,7 @@ describe("StructureCategories", () => {
     const wrapper = mount({});
 
     expect(wrapper.text()).toContain("Test StructureCategories");
-    const headers = wrapper.findAll("th");
+    const headers = wrapper.findAll("tr:first-child th");
     expect(headers.length).toBe(3);
     expect(headers[0].text()).toBe("categories.1");
     expect(headers[1].text()).toBe("portfolio.target_percent");

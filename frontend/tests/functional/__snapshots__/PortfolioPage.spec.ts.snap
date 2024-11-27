@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PortfolioPage Should render 1`] = `
-"<div class="v-table v-table--has-top v-table--has-bottom v-theme--light v-table--density-default v-data-table h-100" data-testid="portfolio-page-data-table">
+"<div class="v-table v-table--has-top v-table--has-bottom v-theme--light v-table--density-default v-data-table v-data-table--loading h-100" data-testid="portfolio-page-data-table">
   <div flat="">
     <div class="ms-3" size="large">mdi-briefcase-variant</div>
     <div>Test Portfolio</div>
@@ -11,32 +11,49 @@ exports[`PortfolioPage Should render 1`] = `
       <!---->
       <thead>
         <tr>
-          <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="min-width: 150px; position: sticky;" colspan="1" rowspan="1">
+          <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky v-data-table-headers--loading" style="min-width: 150px; position: sticky;" colspan="1" rowspan="1">
             <div class="v-data-table-header__content"><span>categories.1</span>
               <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
               <!---->
             </div>
           </th>
-          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 90px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky v-data-table-headers--loading" style="width: 90px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
             <div class="v-data-table-header__content"><span>portfolio.target_percent</span>
               <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
               <!---->
             </div>
           </th>
-          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 90px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky v-data-table-headers--loading" style="width: 90px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
             <div class="v-data-table-header__content"><span>portfolio.current_percent</span>
               <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
               <!---->
             </div>
           </th>
-          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="width: 80px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
+          <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th v-data-table__th--sticky v-data-table-headers--loading" style="width: 80px; max-width: 120px; position: sticky;" colspan="1" rowspan="1">
             <div class="v-data-table-header__content"><span>assets.amount</span>
               <div class="v-data-table-header__sort-icon" icon="mdi-triangle-small-up"></div>
               <!---->
             </div>
           </th>
         </tr>
-        <!---->
+        <tr class="v-data-table-progress">
+          <th colspan="4">
+            <div class="v-data-table-progress__loader">
+              <div class="v-progress-linear v-progress-linear--absolute v-theme--light v-locale--is-ltr" style="top: 0px; height: 2px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);" role="progressbar" aria-hidden="false" aria-valuemin="0" aria-valuemax="100">
+                <!---->
+                <div class="v-progress-linear__background"></div>
+                <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                  <div class="v-progress-linear__indeterminate">
+                    <div class="v-progress-linear__indeterminate long"></div>
+                    <div class="v-progress-linear__indeterminate short"></div>
+                  </div>
+                </transition-stub>
+                <!---->
+              </div>
+            </div>
+          </th>
+        </tr>
       </thead>
       <!---->
       <tbody>

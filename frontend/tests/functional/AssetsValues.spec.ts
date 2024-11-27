@@ -46,7 +46,7 @@ describe("AssetsValues", () => {
     const wrapper = mount({});
 
     expect(wrapper.text()).toContain("Test Statements");
-    const headers = wrapper.findAll("th");
+    const headers = wrapper.findAll("tr:first-child th");
     expect(headers.length).toBe(3);
     expect(headers[0].text()).toBe("date.title");
     expect(headers[1].text()).toBe("assets.1");
