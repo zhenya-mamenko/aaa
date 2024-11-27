@@ -25,4 +25,4 @@ jobs:
       - name: Run Jest tests
         run: |
           cd frontend/
-          npm run test:jest -- --coverage
+          npm run test:jest
