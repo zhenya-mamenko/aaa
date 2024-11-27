@@ -1,0 +1,172 @@
+[
+  {
+    "asset_id": 6,
+    "class_name": "Alternates",
+    "category_name": "Cryptocurrency",
+    "asset_name": "Etherium",
+    "asset_ticker": "ETH",
+    "asset_value_datetime": "2024-11-17 00:00:00",
+    "amount": 0,
+    "out_amount": "0 €"
+  },
+  {
+    "asset_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "asset_name": "Vanguard EUR Corporate Bond UCITS ETF",
+    "asset_ticker": "VECA",
+    "asset_value_datetime": "2024-11-17 00:00:00",
+    "amount": 165000,
+    "out_amount": "1,650 €"
+  },
+  {
+    "asset_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "asset_name": "iShares Euro Government Bond 1-3yr UCITS ETF",
+    "asset_ticker": "IBCI",
+    "asset_value_datetime": "2024-11-17 00:00:00",
+    "amount": 175000,
+    "out_amount": "1,750 €"
+  },
+  {
+    "asset_id": 9,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Bank of America",
+    "asset_ticker": "",
+    "asset_value_datetime": "2024-11-17 00:00:00",
+    "amount": 99000,
+    "out_amount": "990 €"
+  },
+  {
+    "asset_id": 8,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Millenium",
+    "asset_ticker": "",
+    "asset_value_datetime": "2024-11-17 00:00:00",
+    "amount": 238000,
+    "out_amount": "2,380 €"
+  },
+  {
+    "asset_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "asset_name": "iShares MSCI World UCITS ETF",
+    "asset_ticker": "EUNL",
+    "asset_value_datetime": "2024-11-17 00:00:00",
+    "amount": 366000,
+    "out_amount": "3,660 €"
+  },
+  {
+    "asset_id": 6,
+    "class_name": "Alternates",
+    "category_name": "Cryptocurrency",
+    "asset_name": "Etherium",
+    "asset_ticker": "ETH",
+    "asset_value_datetime": "2024-11-16 00:00:00",
+    "amount": 50000,
+    "out_amount": "500 €"
+  },
+  {
+    "asset_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "asset_name": "Vanguard EUR Corporate Bond UCITS ETF",
+    "asset_ticker": "VECA",
+    "asset_value_datetime": "2024-11-16 00:00:00",
+    "amount": 160000,
+    "out_amount": "1,600 €"
+  },
+  {
+    "asset_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "asset_name": "iShares Euro Government Bond 1-3yr UCITS ETF",
+    "asset_ticker": "IBCI",
+    "asset_value_datetime": "2024-11-16 00:00:00",
+    "amount": 150000,
+    "out_amount": "1,500 €"
+  },
+  {
+    "asset_id": 9,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Bank of America",
+    "asset_ticker": "",
+    "asset_value_datetime": "2024-11-16 00:00:00",
+    "amount": 90000,
+    "out_amount": "900 €"
+  },
+  {
+    "asset_id": 8,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Millenium",
+    "asset_ticker": "",
+    "asset_value_datetime": "2024-11-16 00:00:00",
+    "amount": 235000,
+    "out_amount": "2,350 €"
+  },
+  {
+    "asset_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "asset_name": "iShares MSCI World UCITS ETF",
+    "asset_ticker": "EUNL",
+    "asset_value_datetime": "2024-11-16 00:00:00",
+    "amount": 350000,
+    "out_amount": "3,500 €"
+  },
+  {
+    "asset_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "asset_name": "Vanguard EUR Corporate Bond UCITS ETF",
+    "asset_ticker": "VECA",
+    "asset_value_datetime": "2024-11-15 00:00:00",
+    "amount": 170000,
+    "out_amount": "1,700 €"
+  },
+  {
+    "asset_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "asset_name": "iShares Euro Government Bond 1-3yr UCITS ETF",
+    "asset_ticker": "IBCI",
+    "asset_value_datetime": "2024-11-15 00:00:00",
+    "amount": 170000,
+    "out_amount": "1,700 €"
+  },
+  {
+    "asset_id": 9,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Bank of America",
+    "asset_ticker": "",
+    "asset_value_datetime": "2024-11-15 00:00:00",
+    "amount": 100000,
+    "out_amount": "1,000 €"
+  },
+  {
+    "asset_id": 8,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Millenium",
+    "asset_ticker": "",
+    "asset_value_datetime": "2024-11-15 00:00:00",
+    "amount": 230000,
+    "out_amount": "2,300 €"
+  },
+  {
+    "asset_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "asset_name": "iShares MSCI World UCITS ETF",
+    "asset_ticker": "EUNL",
+    "asset_value_datetime": "2024-11-15 00:00:00",
+    "amount": 330000,
+    "out_amount": "3,300 €"
+  }
+]

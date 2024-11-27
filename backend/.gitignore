@@ -1,0 +1,7 @@
+.coverage
+__reports__
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+*.db

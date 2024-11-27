@@ -1,0 +1,6 @@
+[
+  {
+    "config_name": "currency",
+    "config_value": {"symbol": "€", "position": "after"}
+  }
+]

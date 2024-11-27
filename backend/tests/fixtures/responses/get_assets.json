@@ -1,0 +1,74 @@
+[
+  {
+    "asset_id": 7,
+    "category_id": 6,
+    "class_name": "Alternates",
+    "category_name": "Cryptocurrency",
+    "asset_name": "Bitcoin",
+    "asset_ticker": "BTC"
+  },
+  {
+    "asset_id": 6,
+    "category_id": 6,
+    "class_name": "Alternates",
+    "category_name": "Cryptocurrency",
+    "asset_name": "Etherium",
+    "asset_ticker": "ETH"
+  },
+  {
+    "asset_id": 5,
+    "category_id": 5,
+    "class_name": "Alternates",
+    "category_name": "Real estate",
+    "asset_name": "Xtrackers FTSE Developed Europe Real Estate UCITS ETF",
+    "asset_ticker": "D5BK"
+  },
+  {
+    "asset_id": 4,
+    "category_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "asset_name": "Vanguard EUR Corporate Bond UCITS ETF",
+    "asset_ticker": "VECA"
+  },
+  {
+    "asset_id": 3,
+    "category_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "asset_name": "iShares Euro Government Bond 1-3yr UCITS ETF",
+    "asset_ticker": "IBCI"
+  },
+  {
+    "asset_id": 9,
+    "category_id": 7,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Bank of America",
+    "asset_ticker": ""
+  },
+  {
+    "asset_id": 8,
+    "category_id": 7,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "asset_name": "Deposit in Millenium",
+    "asset_ticker": ""
+  },
+  {
+    "asset_id": 2,
+    "category_id": 2,
+    "class_name": "Stocks",
+    "category_name": "EU stocks",
+    "asset_name": "Xtrackers MSCI Europe UCITS ETF",
+    "asset_ticker": "XMEU"
+  },
+  {
+    "asset_id": 1,
+    "category_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "asset_name": "iShares MSCI World UCITS ETF",
+    "asset_ticker": "EUNL"
+  }
+]

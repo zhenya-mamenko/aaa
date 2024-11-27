@@ -1,0 +1,20 @@
+[report]
+exclude_lines =
+    pragma: no cover
+    if TYPE_CHECKING:
+exclude_also =
+    def __repr__
+    if self\.debug
+
+    raise AssertionError
+    raise NotImplementedError
+
+    if 0:
+    if __name__ == .__main__.:
+
+    @(abc\.)?abstractmethod
+
+skip_empty = True
+
+[html]
+directory = __reports__/coverage_html_report

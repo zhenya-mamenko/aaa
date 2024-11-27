@@ -1,0 +1,14 @@
+[
+  {
+    "structure_id": 1,
+    "structure_name": "first",
+    "structure_date": "2024-11-14",
+    "is_current": 1
+  },
+  {
+    "structure_id": 2,
+    "structure_name": "second",
+    "structure_date": "2024-11-15",
+    "is_current": 0
+  }
+]

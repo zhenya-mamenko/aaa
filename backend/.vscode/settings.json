@@ -1,0 +1,23 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "db/aaa.db",
+            "name": "aaa"
+        }
+    ],
+    "python.testing.pytestArgs": [
+        "tests",
+        "--cov=app",
+        "-vv"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+
+    },
+    "python.testing.pytestPath": "ENVIRONMENT=test pytest"
+    "python.envFile": "${workspaceFolder}/.env.test"
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "category_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "structure_percentile": 170,
+    "out_structure_percentile": "17.0%",
+    "amount": 165000,
+    "out_amount": "1,650 €",
+    "total": 1043000,
+    "out_total": "10,430 €",
+    "current_percentile": 158,
+    "out_current_percentile": "15.8%"
+  },
+  {
+    "category_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "structure_percentile": 170,
+    "out_structure_percentile": "17.0%",
+    "amount": 175000,
+    "out_amount": "1,750 €",
+    "total": 1043000,
+    "out_total": "10,430 €",
+    "current_percentile": 168,
+    "out_current_percentile": "16.8%"
+  },
+  {
+    "category_id": 7,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "structure_percentile": 330,
+    "out_structure_percentile": "33.0%",
+    "amount": 337000,
+    "out_amount": "3,370 €",
+    "total": 1043000,
+    "out_total": "10,430 €",
+    "current_percentile": 323,
+    "out_current_percentile": "32.3%"
+  },
+  {
+    "category_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "structure_percentile": 330,
+    "out_structure_percentile": "33.0%",
+    "amount": 366000,
+    "out_amount": "3,660 €",
+    "total": 1043000,
+    "out_total": "10,430 €",
+    "current_percentile": 351,
+    "out_current_percentile": "35.1%"
+  }
+]

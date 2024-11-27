@@ -1,0 +1,82 @@
+[
+  {
+    "structure_id": 1,
+    "category_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "percentile": 170,
+    "out_percentile": "17.0%"
+  },
+  {
+    "structure_id": 1,
+    "category_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "percentile": 170,
+    "out_percentile": "17.0%"
+  },
+  {
+    "structure_id": 1,
+    "category_id": 7,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "percentile": 330,
+    "out_percentile": "33.0%"
+  },
+  {
+    "structure_id": 1,
+    "category_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "percentile": 330,
+    "out_percentile": "33.0%"
+  },
+  {
+    "structure_id": 2,
+    "category_id": 6,
+    "class_name": "Alternates",
+    "category_name": "Cryptocurrency",
+    "percentile": 100,
+    "out_percentile": "10.0%"
+  },
+  {
+    "structure_id": 2,
+    "category_id": 4,
+    "class_name": "Bonds",
+    "category_name": "Corporate bonds",
+    "percentile": 200,
+    "out_percentile": "20.0%"
+  },
+  {
+    "structure_id": 2,
+    "category_id": 3,
+    "class_name": "Bonds",
+    "category_name": "Goverment bonds",
+    "percentile": 200,
+    "out_percentile": "20.0%"
+  },
+  {
+    "structure_id": 2,
+    "category_id": 7,
+    "class_name": "Cash",
+    "category_name": "Deposits",
+    "percentile": 100,
+    "out_percentile": "10.0%"
+  },
+  {
+    "structure_id": 2,
+    "category_id": 2,
+    "class_name": "Stocks",
+    "category_name": "EU stocks",
+    "percentile": 200,
+    "out_percentile": "20.0%"
+  },
+  {
+    "structure_id": 2,
+    "category_id": 1,
+    "class_name": "Stocks",
+    "category_name": "Global stocks",
+    "percentile": 200,
+    "out_percentile": "20.0%"
+  }
+]
