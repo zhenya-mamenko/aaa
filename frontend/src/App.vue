@@ -31,8 +31,10 @@
             <component :is="pageComponent" v-bind="pageProps"/>
           </v-col>
         </v-row>
-        <form-dialog :opened="dialog.opened" :params="dialog.params" :title="dialog.title" @close="closeDialog"
-          @reset="resetSettings" @save="saveSettings" />
+        <form-dialog
+          :opened="dialog.opened" :params="dialog.params" :title="dialog.title"
+          @close="closeDialog" @reset="resetSettings" @save="saveSettings"
+        />
       </v-container>
     </v-main>
   </v-app>

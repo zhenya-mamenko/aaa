@@ -7,7 +7,7 @@ interface ApiResponse {
 }
 
 /* istanbul ignore next */
-const API_URL = import.meta.env?.VITE_AAA_API_URL || "http://localhost:3000";
+const API_URL = import.meta.env?.VITE_AAA_API_URL;
 
 
 export class ApiClient {

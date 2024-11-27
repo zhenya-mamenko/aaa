@@ -43,6 +43,7 @@
     </template>
   </v-data-table>
   <form-dialog
+    :is-saving="isSaving"
     :opened="dialog.opened"
     :params="dialog.params"
     :show-reset-button="false"
@@ -153,6 +154,7 @@ export default defineComponent({
         timeout: 2000,
       } as Partial<{ color: string, show: boolean, text: string, timeout: number }>,
       isLoading: false,
+      isSaving: false,
       items: [] as Response[],
       title: "",
       search: "",
@@ -199,8 +201,8 @@ export default defineComponent({
     },
     async deleteItem(id: number) {
       try {
-        await this.ds.delete(id);
         this.confirmationDialog.opened = false;
+        await this.ds.delete(id);
         this.loadData()
         this.info = {
           show: true,
@@ -359,12 +361,14 @@ export default defineComponent({
       return {};
     },
     save(data: any) {
+      this.isSaving = true;
       const item = this.makeItem(this.dialog.item, data);
       if (this.dialog.id) {
         this.update(this.dialog.id, item);
       } else {
         this.add(item);
       }
+      this.isSaving = false;
     },
     async update(id: number, item: Item) {
       try {

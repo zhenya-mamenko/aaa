@@ -94,6 +94,7 @@
         <v-btn
           color="primary"
           data-testid="form-dialog-save-button"
+          :loading="isSaving"
           :disabled="!isValid"
           @click="save"
         >
@@ -189,9 +190,10 @@ export default defineComponent({
     this.parseParams(this.params);
   },
   props: {
-    title: {
-      type: String,
+    isSaving: {
+      type: Boolean,
       required: false,
+      default: false,
     },
     opened: {
       type: Boolean,
@@ -205,6 +207,10 @@ export default defineComponent({
       type: Boolean,
       required: false,
       default: true,
+    },
+    title: {
+      type: String,
+      required: false,
     },
   },
   watch: {

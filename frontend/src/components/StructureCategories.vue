@@ -84,6 +84,7 @@
     </template>
   </v-data-table>
   <form-dialog
+    :is-saving="isSaving"
     :opened="dialog.opened"
     :params="dialog.params"
     :show-reset-button="false"
@@ -191,6 +192,7 @@ export default defineComponent({
       } as Partial<{ color: string, show: boolean, text: string, timeout: number }>,
       is_current: false,
       isLoading: false,
+      isSaving: false,
       structureIcon: "mdi-list-box",
       structureSum: 0,
       title: "",
@@ -236,8 +238,8 @@ export default defineComponent({
     },
     async deleteItem(id: number) {
       try {
-        await ds.delete(this.structure_id as number, id);
         this.confirmationDialog.opened = false;
+        await ds.delete(this.structure_id as number, id);
         this.loadCategories()
         this.info = {
           show: true,
@@ -322,6 +324,7 @@ export default defineComponent({
       };
     },
     save(data: any) {
+      this.isSaving = true;
       const result = {
         category_id: this.dialog.item.category_id,
         percentile: this.dialog.item.percentile,
@@ -345,6 +348,7 @@ export default defineComponent({
       } else {
         this.add(result);
       }
+      this.isSaving = false;
     },
     async setAsDefault() {
       const s = this.categories.reduce((acc: number, item: StructureCategoryResponse) => acc + item.percentile, 0);

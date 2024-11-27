@@ -191,5 +191,5 @@ exports[`AssetsValues Should render 1`] = `
     </div>
   </div>
 </div>
-<form-dialog-stub opened="false" params="[object Object]" show-reset-button="false" title=""></form-dialog-stub>"
+<form-dialog-stub is-saving="false" opened="false" params="[object Object]" show-reset-button="false" title=""></form-dialog-stub>"
 `;

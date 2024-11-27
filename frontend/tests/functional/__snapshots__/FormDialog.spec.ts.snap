@@ -43,7 +43,7 @@ exports[`FormDialog Should render 1`] = `
     <div class="pe-4 me-2">
       <v-btn-stub data-testid="form-dialog-reset-button"></v-btn-stub>
       <v-spacer-stub></v-spacer-stub>
-      <v-btn-stub color="primary" data-testid="form-dialog-save-button" disabled="false"></v-btn-stub>
+      <v-btn-stub color="primary" data-testid="form-dialog-save-button" loading="false" disabled="false"></v-btn-stub>
       <v-btn-stub></v-btn-stub>
     </div>
   </div>

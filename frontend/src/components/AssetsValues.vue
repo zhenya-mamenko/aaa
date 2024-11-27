@@ -49,6 +49,7 @@
   </template>
   </v-data-table>
   <form-dialog
+    :is-saving="isSaving"
     :opened="dialog.opened"
     :params="dialog.params"
     :show-reset-button="false"
@@ -74,6 +75,7 @@ import { findElement, loadParams, parseAxiosError } from "@/common/utils";
 
 import ds from "@/services/AssetsDataService";
 import { type Asset, type AssetValue, type AssetsValuesResponse } from "@/types/Assets";
+import { th } from 'vuetify/locale';
 
 
 const pageKey = "statements";
@@ -152,6 +154,7 @@ export default defineComponent({
         timeout: 2000,
       } as Partial<{ color: string, show: boolean, text: string, timeout: number }>,
       isLoading: true,
+      isSaving: false,
       title: "",
       search: "",
     }
@@ -219,6 +222,7 @@ export default defineComponent({
       this.isLoading = false;
     },
     save(data: any) {
+      this.isSaving = true;
       const result = {} as any;
       Object.entries(data).forEach(([key, value]) => {
         if (Array.isArray((value as any).value)) {
@@ -229,6 +233,7 @@ export default defineComponent({
       });
       result.amount = Math.round(result.amount * 100);
       this.add(result);
+      this.isSaving = false;
     },
 
   },
