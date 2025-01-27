@@ -202,7 +202,7 @@ export default defineComponent({
           rules: [
             "required",
             "number",
-            ["min_value", 0.1, ],
+            ["min_value", 0, ],
           ],
           title: t("assets.amount") + ", " + state.currencySymbol,
           type: "number",
